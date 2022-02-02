@@ -19,20 +19,20 @@ services:
       - "5601:5601"
   nodejs-server:
     build:
-      context: ./api
+      context: ./react-nodejs-docker-compose/api
     ports:
       - "3080:3080"
     container_name: node-api
     volumes:
-       - ./api:/usr/src/app/api
+       - ./react-nodejs-docker-compose/api:/usr/src/app/api
        - /usr/src/app/api/node_modules
   react-ui:
     build:
-      context: ./my-app
+      context: ./react-nodejs-docker-compose/my-app
     ports:
       - "3000:3000"
     container_name: react-ui
     stdin_open: true
     volumes:
-       - ./my-app:/usr/src/app/my-app
+       - ./react-nodejs-docker-compose/my-app:/usr/src/app/my-app
        - /usr/src/app/my-app/node_modules
