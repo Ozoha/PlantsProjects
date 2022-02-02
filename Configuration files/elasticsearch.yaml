@@ -1,0 +1,6 @@
+cluster.name: demo-elk      # give the cluster a descriptive name
+node.name: elk-1            # give the node a descriptive name
+network.host: 0.0.0.0       # change network binding
+xpack.security.enabled: true
+
+
