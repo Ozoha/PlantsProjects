@@ -1,0 +1,7 @@
+xpack.monitoring.enabled: true
+xpack.monitoring.elasticsearch.hosts: http://elasticsearch:9200
+xpack.monitoring.elasticsearch.username: "elastic"
+xpack.monitoring.elasticsearch.password: "MbxpC6ssdThoSxy20PdL"
+log.level: debug
+path.logs: /var/log/logstash
+pipeline.workers: 1
