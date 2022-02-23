@@ -3,7 +3,7 @@ server.host: "0.0.0.0"
 xpack.monitoring.ui.container.elasticsearch.enabled: true
 elasticsearch.hosts: ["http://elasticsearch:9200"]
 elasticsearch.username: "kibana"
-elasticsearch.password: "sZmsR--FVbgtBIs74ZOI"
+elasticsearch.password: "password"
 xpack.reporting.roles.enabled: false
 enterpriseSearch.host: 'http://localhost:3002'
 xpack.encryptedSavedObjects.encryptionKey: 309e5bc30e6de8ee92913ac0d929f350
